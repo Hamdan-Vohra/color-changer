@@ -15,6 +15,7 @@ const SearchColor = ({ color, setColor, isDarkText, setIsDarkText }) => {
             >
             </input>
             <button
+                type='button'
                 onClick={() => setIsDarkText(!isDarkText)}>
                 Toggle Color
             </button>

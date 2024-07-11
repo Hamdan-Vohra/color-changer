@@ -5,6 +5,7 @@ import { useState } from 'react'
 function App() {
   const [color, setColor] = useState('')
   const [isDarkText, setIsDarkText] = useState(true)
+  //we can also add hexvalues using package colornames
   return (
     <main className="main-container">
       <DisplayBox
